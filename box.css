@@ -1,34 +1,57 @@
 body {
-	
+	background-color: black;
 }
 
 li {
-	display: inline;
-	margin: auto;
-}
-
-nav ul {
-	margin:	0;
-	padding: 0;
+	font-size: 27px;
+	padding: 100px;
+	color: white;
 }
 
 nav ul li {
 	display: inline;
-	margin: 10px;
 }
 
 header {
+	position: relative;
 	text-align: center;
-	margin: auto;
 	background-image: url("http://cdn.playbuzz.com/cdn/80ec1405-b8eb-4c34-9173-e393896d8e8b/f88adce4-846c-4a90-a724-08306c9b692b.jpg");
+	font-size: 30px;
+	border: 2px solid gray;
+	margin: 10px;
 }
 
-h1{
-	color: white;
-}
-
-header, footer, section, nav, aside {
+aside {
 	border: 2px solid gray;
 	margin: 10px;
 	padding: 10px;
 }
+
+.title {
+	text-shadow: 2px 2px lightgray;
+}
+
+nav {
+	position: relative;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid gray;
+}
+
+section {
+	border: 2px solid gray;
+	margin: 10px;
+	padding: 10px;
+}
+
+footer {
+	border: 2px solid gray;
+	margin: 10px;
+	padding: 10px;
+}
+
+p, h3 {
+	color: white;
+}
+
